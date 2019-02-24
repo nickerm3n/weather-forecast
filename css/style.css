@@ -1,0 +1,181 @@
+* {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+.background-block{
+	background: #3498ca;
+	box-sizing: border-box;
+	overflow: relative;
+	padding:0 16%;
+}
+
+html {
+	border: 24px solid #2b80aa;
+	height: 100%;
+	box-sizing: border-box;
+	background: #3498ca;
+
+}
+
+body {
+	height:100%;
+}
+
+header {
+	margin: 0;
+}
+
+h1,i {
+	margin: 0;
+	display: inline-block;
+}
+
+i {
+	font-size: 25px;
+}
+
+.logo {
+	padding: 20px 0;
+	color: #fff;
+	box-sizing: border-box;
+
+}
+
+menu {
+	padding: 0;
+	margin: 0;
+}
+
+.display-cities {
+	margin: 0 auto;
+	box-sizing: border-box;
+	text-align: center;
+	color: #fff;
+
+}
+
+.display-cities i{
+	font-size: 30px;
+	text-align: bottom;
+}
+
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+	font-size: 0px;
+	border-right: 5px solid #fff;
+	background: #fff;
+}
+
+
+li {
+	font-size: 19px;
+	transition: all .1s ease-in;
+	display: inline-block;
+	border: 5px solid #fff;
+	border-right: 0;
+	border-bottom: 0;
+	box-sizing: border-box;
+}
+
+
+ul:hover li:not(:hover) {
+  opacity:.7;
+}
+
+
+sup {
+	font-size: 10px;
+	vertical-align: center;
+}
+
+.controller-cities {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.one-quarter {
+	width: 25%;
+}
+
+.two-quarters {
+	width: 50%;
+}
+
+
+.full-quarter {
+	display: inline-block;
+	border: 5px solid #fff;
+	width: 100%;
+	box-sizing: border-box;
+	border-right: 0;
+}
+
+.weather-section {
+	margin: 0 auto;
+	width: 150px;
+	box-sizing: border-box;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.text-top {
+	display: inline-block;
+}
+
+.bottom-text {
+	margin-top: 10px;
+	display: inline-block;
+	opacity: .7;
+}
+
+footer {
+	color: #fff;
+	margin-top: 8px;
+}
+
+.lisbon {
+	background: #3498ca;
+}
+
+.paris {
+	background: #32cbcb;
+}
+
+.belgrade {
+	background: #815680;
+}
+
+.moskow {
+	background: #c75442;
+}
+
+.aviv {
+	background: #e77145;
+}
+
+.cair {
+	background: #ffcb5f;
+}
+
+.new-york {
+	background: #94c395;
+}
+
+.new-delhi {
+	background: #5e9494;
+}
+
+.san-franciso {
+	background: #cf7294;
+}
+
+.tokyo {
+	background: #2a8c62;
+}
+
+.sydney {
+	background: #636996;
+}
